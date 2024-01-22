@@ -20,8 +20,8 @@
         }
     </style>
 </head>
-<body class="lg:w-[1170px] mx-auto">
-    <header>
+<body >
+    <header class="lg:w-[1170px] mx-auto">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
               <div class="dropdown">
@@ -62,7 +62,7 @@
             </div>
           </div>
     </header>
-    <main>
+    <main class="lg:w-[1170px] mx-auto">
         <section>
           <div class="text-center lg:mt-20 p-4">
             <h1 class="text-4xl font-extrabold EB-font">The Legal Practice Area</h1>
@@ -159,6 +159,8 @@
                   <a href="#slide2" class="btn btn-circle">❯</a>
                 </div>
               </div> 
+
+<!--******************slider-2************ -->
               <div id="slide2" class="carousel-item relative w-full bg-[linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.1)),url(/images/slider-2.jpg)] flex justify-center items-center  object-contain	">
                 <div class="text-center text-white space-y-4 ">
                   <h1 class="text-white text-xl font-semibold">Awlad Hossain</h1>
@@ -296,5 +298,39 @@
           </div>
         </section>
     </main>
+    <footer class="footer mt-20 py-20 bg-[#111] justify-around">
+      <nav class="text-white">
+        <header class=""><img src="images/logo.png" alt=""></header> 
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav> 
+      <nav class="text-white">
+        <header class="">Company</header> 
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav> 
+      <nav class="text-white">
+        <header class="">Legal</header> 
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav> 
+      <form class="text-white"> 
+        <header class="">Newsletter</header> 
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="lg:w-[505px] label-text text-white join-item">Enter your email address</span>
+          </label> 
+          <div class="join">
+            <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+            <button class="btn border-none join-ite bg-[#B68C5A] rounded-lg w-[50px] h-[50px]"><img src="images/Frame (4).svg" alt=""></button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
 </body>
 </html>
